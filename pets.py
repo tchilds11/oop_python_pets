@@ -6,7 +6,6 @@ puppy = {
 }
 
 # Define functions that increase a pet's attribute levels.
-
 def feed_pet(pet):
     pet["fullness"] += 10
 
@@ -15,8 +14,6 @@ def play_with_pet(pet):
     pet["happiness"] += 10
 
 # Decrease a pet's attribute levels.
-
-
 def get_hungry_and_mopey(pet):
     pet["fullness"] -= 5
     pet["happiness"] -= 5
